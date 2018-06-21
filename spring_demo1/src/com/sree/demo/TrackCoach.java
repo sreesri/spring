@@ -5,11 +5,9 @@ public class TrackCoach implements Coach {
 	private FortuneService fortuneService;
 	
 	public TrackCoach() {
-		//System.out.println("jsvnksdmcsdklvknvn");
 	}
 	
 	public TrackCoach(FortuneService fortuneService) {
-		//System.out.println("ojbndmcfvdokdaslksdkng");
 		this.fortuneService = fortuneService;
 	}
 
@@ -22,5 +20,12 @@ public class TrackCoach implements Coach {
 	public String getDailyFortune() {
 		return "scxcxs"+fortuneService.getFortune();
 	}
-
+	
+	public void init() {
+		System.out.println("init");
+	}
+	
+	public void destroy() {
+		System.out.println("destroy");
+	}
 }
