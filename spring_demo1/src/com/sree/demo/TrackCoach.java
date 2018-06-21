@@ -4,9 +4,12 @@ public class TrackCoach implements Coach {
 
 	private FortuneService fortuneService;
 	
-	public TrackCoach() {}
+	public TrackCoach() {
+		//System.out.println("jsvnksdmcsdklvknvn");
+	}
 	
 	public TrackCoach(FortuneService fortuneService) {
+		//System.out.println("ojbndmcfvdokdaslksdkng");
 		this.fortuneService = fortuneService;
 	}
 
